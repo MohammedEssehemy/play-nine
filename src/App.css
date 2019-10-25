@@ -2,20 +2,57 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.App-header {
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.2rem;
+  height: 4rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-Body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2rem;
 }
+
+.Game-Body {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App-body-column {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 33vw;
+}
+
+.App-end-message {
+  font-size: 5rem;
+}
+
+.App-restart-button {
+  border-radius: 10%;
+  font-size: 2rem;
+  margin: auto;
+  padding: 2rem;
+}
+
+.action-button {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  font-size: 3rem;
+  height: 5rem;
+  width: 5rem;
+}
+
 
 .App-link {
   color: #09d3ac;
